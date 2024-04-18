@@ -1,0 +1,673 @@
+    1   0.000000 185.199.109.133 → 10.0.2.15    TCP 66 443 → 56034 [RST, ACK] Seq=1 Ack=1 Win=65535 Len=0
+    2   0.497088    10.0.2.15 → 34.120.115.102 TLSv1.2 99 Application Data
+    3   0.498876 34.120.115.102 → 10.0.2.15    TCP 66 443 → 41364 [ACK] Seq=1 Ack=40 Win=65535 Len=0
+    4   1.018169 185.199.110.154 → 10.0.2.15    TCP 66 443 → 56108 [RST, ACK] Seq=1 Ack=1 Win=65535 Len=0
+    5   1.500963    10.0.2.15 → 140.82.112.21 TLSv1.2 99 Application Data
+    6   1.501936    10.0.2.15 → 185.199.111.154 TLSv1.2 99 Application Data
+    7   1.502163 140.82.112.21 → 10.0.2.15    TCP 66 443 → 59630 [ACK] Seq=1 Ack=40 Win=65535 Len=0
+    8   1.503901 185.199.111.154 → 10.0.2.15    TCP 66 443 → 55898 [ACK] Seq=1 Ack=40 Win=65535 Len=0
+    9   1.508032    10.0.2.15 → 185.199.111.154 TLSv1.2 84 Application Data
+   10   1.508506    10.0.2.15 → 185.199.111.154 TCP 60 55898 → 443 [FIN, ACK] Seq=64 Ack=1 Win=65535 Len=0
+   11   1.509368    10.0.2.15 → 140.82.112.21 TLSv1.2 84 Application Data
+   12   1.509450 185.199.111.154 → 10.0.2.15    TCP 66 443 → 55898 [ACK] Seq=1 Ack=64 Win=65535 Len=0
+   13   1.509471 185.199.111.154 → 10.0.2.15    TCP 66 443 → 55898 [ACK] Seq=1 Ack=65 Win=65535 Len=0
+   14   1.509785    10.0.2.15 → 140.82.112.21 TCP 60 59630 → 443 [FIN, ACK] Seq=64 Ack=1 Win=62780 Len=0
+   15   1.511801 140.82.112.21 → 10.0.2.15    TCP 66 443 → 59630 [ACK] Seq=1 Ack=64 Win=65535 Len=0
+   16   1.511820 140.82.112.21 → 10.0.2.15    TCP 66 443 → 59630 [ACK] Seq=1 Ack=65 Win=65535 Len=0
+   17   2.369741    10.0.2.15 → 142.250.207.227 TCP 60 56530 → 80 [ACK] Seq=1 Ack=1 Win=63882 Len=0
+   18   2.371846 142.250.207.227 → 10.0.2.15    TCP 66 [TCP ACKed unseen segment] 80 → 56530 [ACK] Seq=1 Ack=2 Win=65535 Len=0
+   19   2.619337    10.0.2.15 → 142.250.207.227 TCP 60 56540 → 80 [ACK] Seq=1 Ack=1 Win=63882 Len=0
+   20   2.620854 142.250.207.227 → 10.0.2.15    TCP 66 [TCP ACKed unseen segment] 80 → 56540 [ACK] Seq=1 Ack=2 Win=65535 Len=0
+   21   2.965770    10.0.2.15 → 142.250.207.227 TCP 60 43140 → 80 [ACK] Seq=1 Ack=1 Win=63882 Len=0
+   22   2.967354 142.250.207.227 → 10.0.2.15    TCP 66 [TCP ACKed unseen segment] 80 → 43140 [ACK] Seq=1 Ack=2 Win=65535 Len=0
+   23   3.074842 185.199.110.133 → 10.0.2.15    TCP 66 443 → 35476 [RST, ACK] Seq=1 Ack=1 Win=65535 Len=0
+   24   4.144004    10.0.2.15 → 152.195.38.76 TCP 60 35138 → 80 [ACK] Seq=1 Ack=1 Win=63503 Len=0
+   25   4.145202 152.195.38.76 → 10.0.2.15    TCP 66 [TCP ACKed unseen segment] 80 → 35138 [ACK] Seq=1 Ack=2 Win=65535 Len=0
+   26   4.420022    10.0.2.15 → 104.18.38.233 TCP 60 51536 → 80 [ACK] Seq=1 Ack=1 Win=63468 Len=0
+   27   4.421115 104.18.38.233 → 10.0.2.15    TCP 66 [TCP ACKed unseen segment] 80 → 51536 [ACK] Seq=1 Ack=2 Win=65535 Len=0
+   28   4.663093    10.0.2.15 → 172.64.149.23 TCP 60 60194 → 80 [ACK] Seq=1 Ack=1 Win=63632 Len=0
+   29   4.670123 172.64.149.23 → 10.0.2.15    TCP 66 [TCP ACKed unseen segment] 80 → 60194 [ACK] Seq=1 Ack=2 Win=65535 Len=0
+   30   6.971532    10.0.2.15 → 34.107.221.82 TCP 60 42698 → 80 [ACK] Seq=1 Ack=1 Win=63942 Len=0
+   31   6.972593 34.107.221.82 → 10.0.2.15    TCP 66 [TCP ACKed unseen segment] 80 → 42698 [ACK] Seq=1 Ack=2 Win=65535 Len=0
+   32   7.342710    10.0.2.15 → 34.107.221.82 TCP 60 42700 → 80 [ACK] Seq=1 Ack=1 Win=64024 Len=0
+   33   7.344168 34.107.221.82 → 10.0.2.15    TCP 66 [TCP ACKed unseen segment] 80 → 42700 [ACK] Seq=1 Ack=2 Win=65535 Len=0
+   34   7.798303    10.0.2.15 → 34.107.243.93 TLSv1.2 99 Application Data
+   35   7.799435    10.0.2.15 → 34.107.243.93 TLSv1.2 84 Application Data
+   36   7.799881 34.107.243.93 → 10.0.2.15    TCP 66 443 → 51496 [ACK] Seq=1 Ack=40 Win=65535 Len=0
+   37   7.801265 34.107.243.93 → 10.0.2.15    TCP 66 443 → 51496 [ACK] Seq=1 Ack=65 Win=65535 Len=0
+   38   8.816256    10.0.2.15 → 34.120.115.102 TLSv1.2 99 Application Data
+   39   8.816818    10.0.2.15 → 34.120.115.102 TLSv1.2 84 Application Data
+   40   8.817232 34.120.115.102 → 10.0.2.15    TCP 66 443 → 41364 [ACK] Seq=1 Ack=79 Win=65535 Len=0
+   41   8.817260 34.120.115.102 → 10.0.2.15    TCP 66 443 → 41364 [ACK] Seq=1 Ack=104 Win=65535 Len=0
+   42  11.338986    10.0.2.15 → 34.120.237.76 TLSv1.2 99 Application Data
+   43  11.341052 34.120.237.76 → 10.0.2.15    TCP 66 443 → 60610 [ACK] Seq=1 Ack=40 Win=65535 Len=0
+   44  12.608415    10.0.2.15 → 142.250.207.227 TCP 60 [TCP Dup ACK 17#1] 56530 → 80 [ACK] Seq=1 Ack=1 Win=63882 Len=0
+   45  12.610892 142.250.207.227 → 10.0.2.15    TCP 66 [TCP Dup ACK 18#1] 80 → 56530 [ACK] Seq=1 Ack=2 Win=65535 Len=0
+   46  12.850986    10.0.2.15 → 142.250.207.227 TCP 60 [TCP Dup ACK 19#1] 56540 → 80 [ACK] Seq=1 Ack=1 Win=63882 Len=0
+   47  12.852108 142.250.207.227 → 10.0.2.15    TCP 66 [TCP Dup ACK 20#1] 80 → 56540 [ACK] Seq=1 Ack=2 Win=65535 Len=0
+   48  12.856911    10.0.2.15 → 185.125.188.59 TCP 60 38640 → 443 [ACK] Seq=1 Ack=1 Win=62780 Len=0
+   49  12.857742 185.125.188.59 → 10.0.2.15    TCP 66 [TCP ACKed unseen segment] 443 → 38640 [ACK] Seq=1 Ack=2 Win=65535 Len=0
+   50  14.138977    10.0.2.15 → 142.250.207.227 TCP 60 [TCP Dup ACK 21#1] 43140 → 80 [ACK] Seq=1 Ack=1 Win=63882 Len=0
+   51  14.140069 142.250.207.227 → 10.0.2.15    TCP 66 [TCP Dup ACK 22#1] 80 → 43140 [ACK] Seq=1 Ack=2 Win=65535 Len=0
+   52  14.417442    10.0.2.15 → 152.195.38.76 TCP 60 [TCP Dup ACK 24#1] 35138 → 80 [ACK] Seq=1 Ack=1 Win=63503 Len=0
+   53  14.419965 152.195.38.76 → 10.0.2.15    TCP 66 [TCP Dup ACK 25#1] 80 → 35138 [ACK] Seq=1 Ack=2 Win=65535 Len=0
+   54  14.662037    10.0.2.15 → 104.18.38.233 TCP 60 [TCP Dup ACK 26#1] 51536 → 80 [ACK] Seq=1 Ack=1 Win=63468 Len=0
+   55  14.664812 104.18.38.233 → 10.0.2.15    TCP 66 [TCP Dup ACK 27#1] 80 → 51536 [ACK] Seq=1 Ack=2 Win=65535 Len=0
+   56  14.961713    10.0.2.15 → 172.64.149.23 TCP 60 [TCP Dup ACK 28#1] 60194 → 80 [ACK] Seq=1 Ack=1 Win=63632 Len=0
+   57  14.962612 172.64.149.23 → 10.0.2.15    TCP 66 [TCP Dup ACK 29#1] 80 → 60194 [ACK] Seq=1 Ack=2 Win=65535 Len=0
+   58  14.998078 185.199.111.154 → 10.0.2.15    TCP 66 443 → 55898 [RST, ACK] Seq=1 Ack=65 Win=65535 Len=0
+   59  15.106016 140.82.112.21 → 10.0.2.15    TCP 66 443 → 59630 [RST, ACK] Seq=1 Ack=65 Win=65535 Len=0
+   60  15.391524 104.71.61.74 → 10.0.2.15    TCP 66 80 → 48234 [RST, ACK] Seq=1 Ack=1 Win=65535 Len=0
+   61  15.391553 104.71.61.74 → 10.0.2.15    TCP 66 80 → 48232 [RST, ACK] Seq=1 Ack=1 Win=65535 Len=0
+   62  15.404027 104.71.61.74 → 10.0.2.15    TCP 66 80 → 48284 [RST, ACK] Seq=1 Ack=1 Win=65535 Len=0
+   63  15.406427 104.71.61.74 → 10.0.2.15    TCP 66 80 → 48278 [RST, ACK] Seq=1 Ack=1 Win=65535 Len=0
+   64  15.406446 104.71.61.74 → 10.0.2.15    TCP 66 80 → 48264 [RST, ACK] Seq=1 Ack=1 Win=65535 Len=0
+   65  15.502129    10.0.2.15 → 142.250.207.227 TCP 60 [TCP Previous segment not captured] 56530 → 80 [FIN, ACK] Seq=2 Ack=1 Win=63882 Len=0
+   66  15.502734    10.0.2.15 → 142.250.207.227 TCP 60 [TCP Previous segment not captured] 56540 → 80 [FIN, ACK] Seq=2 Ack=1 Win=63882 Len=0
+   67  15.503267 142.250.207.227 → 10.0.2.15    TCP 66 80 → 56530 [ACK] Seq=1 Ack=3 Win=65535 Len=0
+   68  15.505183 142.250.207.227 → 10.0.2.15    TCP 66 80 → 56540 [ACK] Seq=1 Ack=3 Win=65535 Len=0
+   69  17.224258    10.0.2.15 → 34.107.221.82 TCP 60 [TCP Dup ACK 30#1] 42698 → 80 [ACK] Seq=1 Ack=1 Win=63942 Len=0
+   70  17.225433 34.107.221.82 → 10.0.2.15    TCP 66 [TCP Dup ACK 31#1] 80 → 42698 [ACK] Seq=1 Ack=2 Win=65535 Len=0
+   71  17.401239 104.71.61.74 → 10.0.2.15    TCP 66 80 → 48248 [RST, ACK] Seq=1 Ack=1 Win=65535 Len=0
+   72  17.502273    10.0.2.15 → 34.107.221.82 TCP 60 [TCP Dup ACK 32#1] 42700 → 80 [ACK] Seq=1 Ack=1 Win=64024 Len=0
+   73  17.503884 34.107.221.82 → 10.0.2.15    TCP 66 [TCP Dup ACK 33#1] 80 → 42700 [ACK] Seq=1 Ack=2 Win=65535 Len=0
+   74  17.522250    10.0.2.15 → 142.250.194.132 TLSv1.2 99 Application Data
+   75  17.523360 142.250.194.132 → 10.0.2.15    TCP 66 443 → 35114 [ACK] Seq=1 Ack=40 Win=65535 Len=0
+   76  18.927234 142.250.207.227 → 10.0.2.15    TCP 66 80 → 56540 [RST, ACK] Seq=1 Ack=3 Win=65535 Len=0
+   77  18.927274 142.250.207.227 → 10.0.2.15    TCP 66 80 → 56530 [RST, ACK] Seq=1 Ack=3 Win=65535 Len=0
+   78  18.927284 142.250.194.132 → 10.0.2.15    TCP 66 443 → 35114 [RST, ACK] Seq=1 Ack=40 Win=65535 Len=0
+   79  18.927750 104.18.38.233 → 10.0.2.15    TCP 66 80 → 51536 [RST, ACK] Seq=1 Ack=2 Win=65535 Len=0
+   80  18.927767 34.120.115.102 → 10.0.2.15    TCP 66 443 → 41364 [RST, ACK] Seq=1 Ack=104 Win=65535 Len=0
+   81  18.927778 34.107.243.93 → 10.0.2.15    TCP 66 443 → 51510 [RST, ACK] Seq=1 Ack=1 Win=65535 Len=0
+   82  18.927789 152.195.38.76 → 10.0.2.15    TCP 66 80 → 35138 [RST, ACK] Seq=1 Ack=2 Win=65535 Len=0
+   83  18.927800 34.120.208.123 → 10.0.2.15    TCP 66 443 → 52960 [RST, ACK] Seq=1 Ack=1 Win=65535 Len=0
+   84  18.927911 34.107.243.93 → 10.0.2.15    TCP 66 443 → 51496 [RST, ACK] Seq=1 Ack=65 Win=65535 Len=0
+   85  18.927927 34.120.237.76 → 10.0.2.15    TCP 66 443 → 60610 [RST, ACK] Seq=1 Ack=40 Win=65535 Len=0
+   86  18.927938 34.107.221.82 → 10.0.2.15    TCP 66 80 → 42700 [RST, ACK] Seq=1 Ack=2 Win=65535 Len=0
+   87  18.928160 34.107.221.82 → 10.0.2.15    TCP 66 80 → 42698 [RST, ACK] Seq=1 Ack=2 Win=65535 Len=0
+   88  18.929541 185.125.188.59 → 10.0.2.15    TCP 66 443 → 38640 [RST, ACK] Seq=1 Ack=2 Win=65535 Len=0
+   89  18.929580 172.64.149.23 → 10.0.2.15    TCP 66 80 → 60194 [RST, ACK] Seq=1 Ack=2 Win=65535 Len=0
+   90  18.929593 140.82.114.26 → 10.0.2.15    TCP 66 443 → 56658 [RST, ACK] Seq=1 Ack=1 Win=65535 Len=0
+   91  18.929604 142.250.207.227 → 10.0.2.15    TCP 66 80 → 43140 [RST, ACK] Seq=1 Ack=2 Win=65535 Len=0
+   92  23.939995    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x501c A push.services.mozilla.com OPT
+   93  23.940157    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0xa700 AAAA push.services.mozilla.com OPT
+   94  23.941952    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x08f8 A push.services.mozilla.com OPT
+   95  23.942478    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0xfe5a AAAA push.services.mozilla.com OPT
+   96  23.943451     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+   97  23.943473     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+   98  23.943623   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0x501c Server failure A push.services.mozilla.com OPT
+   99  23.944131   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0xa700 Server failure AAAA push.services.mozilla.com OPT
+  100  23.944321    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x501c A push.services.mozilla.com OPT
+  101  23.944776    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x6b86 A push.services.mozilla.com OPT
+  102  23.945213    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0xa700 AAAA push.services.mozilla.com OPT
+  103  23.945643    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x8d9e AAAA push.services.mozilla.com OPT
+  104  23.947054     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  105  23.947533     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  106  23.949161   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0x501c Server failure A push.services.mozilla.com OPT
+  107  23.949589   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0xa700 Server failure AAAA push.services.mozilla.com OPT
+  108  23.950139    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x6b20 A push.services.mozilla.com OPT
+  109  23.950242    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0xd025 AAAA push.services.mozilla.com OPT
+  110  23.951003    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0xed5d A push.services.mozilla.com OPT
+  111  23.952021     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  112  23.952643    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0xea01 AAAA push.services.mozilla.com OPT
+  113  23.954320     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  114  23.954733   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0x6b20 Server failure A push.services.mozilla.com OPT
+  115  23.954849   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0xd025 Server failure AAAA push.services.mozilla.com OPT
+  116  23.954972    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x6b20 A push.services.mozilla.com OPT
+  117  23.954999    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0xd025 AAAA push.services.mozilla.com OPT
+  118  23.955348    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x0a5e A push.services.mozilla.com OPT
+  119  23.956525     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  120  23.957688    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0xf7e9 AAAA push.services.mozilla.com OPT
+  121  23.959128     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  122  23.959465   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0x6b20 Server failure A push.services.mozilla.com OPT
+  123  23.960633   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0xd025 Server failure AAAA push.services.mozilla.com OPT
+  124  23.962727    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x42fe A push.services.mozilla.com OPT
+  125  23.962863    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x16fa AAAA push.services.mozilla.com OPT
+  126  23.964815    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x624b A push.services.mozilla.com OPT
+  127  23.965698    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0xad6e AAAA push.services.mozilla.com OPT
+  128  23.966812     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  129  23.966910     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  130  23.967455   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0x42fe Server failure A push.services.mozilla.com OPT
+  131  23.967527   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0x16fa Server failure AAAA push.services.mozilla.com OPT
+  132  23.968786    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x42fe A push.services.mozilla.com OPT
+  133  23.968812    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x16fa AAAA push.services.mozilla.com OPT
+  134  23.969171    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x7e38 A push.services.mozilla.com OPT
+  135  23.970048    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x7aa7 AAAA push.services.mozilla.com OPT
+  136  23.971441     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  137  23.971555     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  138  23.971788   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0x42fe Server failure A push.services.mozilla.com OPT
+  139  23.971875   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0x16fa Server failure AAAA push.services.mozilla.com OPT
+  140  23.972448    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x3666 A push.services.mozilla.com OPT
+  141  23.972624    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0xb56b AAAA push.services.mozilla.com OPT
+  142  23.973468    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x0dba A push.services.mozilla.com OPT
+  143  23.973813    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x1c44 AAAA push.services.mozilla.com OPT
+  144  23.974502     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  145  23.974621     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  146  23.974964   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0x3666 Server failure A push.services.mozilla.com OPT
+  147  23.975197   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0xb56b Server failure AAAA push.services.mozilla.com OPT
+  148  23.975303    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x3666 A push.services.mozilla.com OPT
+  149  23.975323    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0xb56b AAAA push.services.mozilla.com OPT
+  150  23.975631    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0xa545 A push.services.mozilla.com OPT
+  151  23.976342    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0xf80a AAAA push.services.mozilla.com OPT
+  152  23.976501     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  153  23.976678   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0x3666 Server failure A push.services.mozilla.com OPT
+  154  23.978071     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  155  23.979040   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0xb56b Server failure AAAA push.services.mozilla.com OPT
+  156  23.981642    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x9a98 A push.services.mozilla.com OPT
+  157  23.981678    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0xa69d AAAA push.services.mozilla.com OPT
+  158  23.982211    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0xcebc A push.services.mozilla.com OPT
+  159  23.983122    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x6d4e AAAA push.services.mozilla.com OPT
+  160  23.983507    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x986c A push.services.mozilla.com OPT
+  161  23.984344     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  162  23.984367     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  163  23.984756   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0xa69d Server failure AAAA push.services.mozilla.com OPT
+  164  23.984847   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0x9a98 Server failure A push.services.mozilla.com OPT
+  165  23.984885   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0x986c Server failure A push.services.mozilla.com OPT
+  166  23.985471    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x9a98 A push.services.mozilla.com OPT
+  167  23.985493    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0xa69d AAAA push.services.mozilla.com OPT
+  168  23.985735    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0xb89f A push.services.mozilla.com OPT
+  169  23.986925     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  170  23.987160    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x986c A push.services.mozilla.com OPT
+  171  23.987213    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x9492 AAAA push.services.mozilla.com OPT
+  172  23.987754     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  173  23.988817   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0xa69d Server failure AAAA push.services.mozilla.com OPT
+  174  23.989075   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0x986c Server failure A push.services.mozilla.com OPT
+  175  23.989119   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0x9a98 Server failure A push.services.mozilla.com OPT
+  176  23.989354    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0xe5d9 A push.services.mozilla.com OPT
+  177  23.989381    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0xe9dd AAAA push.services.mozilla.com OPT
+  178  23.989414    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x231a A push.services.mozilla.com OPT
+  179  23.989606    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x181f A push.services.mozilla.com OPT
+  180  23.990652     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  181  23.990995    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x7912 AAAA push.services.mozilla.com OPT
+  182  23.991459     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  183  23.991768   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0xe9dd Server failure AAAA push.services.mozilla.com OPT
+  184  23.993010   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0x231a Server failure A push.services.mozilla.com OPT
+  185  23.993055   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0xe5d9 Server failure A push.services.mozilla.com OPT
+  186  23.993220    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x231a A push.services.mozilla.com OPT
+  187  23.993415    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0xe5d9 A push.services.mozilla.com OPT
+  188  23.993431    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0xe9dd AAAA push.services.mozilla.com OPT
+  189  23.993768    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x43ee A push.services.mozilla.com OPT
+  190  23.995060     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  191  23.995392    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0xe0fb AAAA push.services.mozilla.com OPT
+  192  23.995934     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  193  23.997220   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0xe5d9 Server failure A push.services.mozilla.com OPT
+  194  23.997394   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0x231a Server failure A push.services.mozilla.com OPT
+  195  23.997476   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0xe9dd Server failure AAAA push.services.mozilla.com OPT
+  196  23.998111    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0xcfd9 A push.services.mozilla.com OPT
+  197  23.998168    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0xd231 A push.services.mozilla.com OPT
+  198  23.998184    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0xaa32 AAAA push.services.mozilla.com OPT
+  199  23.998494    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x9702 A push.services.mozilla.com OPT
+  200  23.998966    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0xdaba AAAA push.services.mozilla.com OPT
+  201  24.000168     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  202  24.000280     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  203  24.001042   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0xcfd9 Server failure A push.services.mozilla.com OPT
+  204  24.001085   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0xd231 Server failure A push.services.mozilla.com OPT
+  205  24.001147   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0xaa32 Server failure AAAA push.services.mozilla.com OPT
+  206  24.001243    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0xcfd9 A push.services.mozilla.com OPT
+  207  24.001417    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0xeaa9 A push.services.mozilla.com OPT
+  208  24.001623    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0xd231 A push.services.mozilla.com OPT
+  209  24.001730    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0xaa32 AAAA push.services.mozilla.com OPT
+  210  24.001969    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x4b6b AAAA push.services.mozilla.com OPT
+  211  24.002348     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  212  24.002805   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0xcfd9 Server failure A push.services.mozilla.com OPT
+  213  24.003518    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x17bd A push.services.mozilla.com OPT
+  214  24.003937     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  215  24.004199   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0xd231 Server failure A push.services.mozilla.com OPT
+  216  24.004653    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x79dc A push.services.mozilla.com OPT
+  217  24.005251   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0xaa32 Server failure AAAA push.services.mozilla.com OPT
+  218  24.005834     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  219  24.005857    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0xef97 A push.services.mozilla.com OPT
+  220  24.005878    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x1c9d AAAA push.services.mozilla.com OPT
+  221  24.006069   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0x17bd Server failure A push.services.mozilla.com OPT
+  222  24.006449    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x17bd A push.services.mozilla.com OPT
+  223  24.006498    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0xb9ab A push.services.mozilla.com OPT
+  224  24.007499    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x5af8 AAAA push.services.mozilla.com OPT
+  225  24.007940     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  226  24.008244   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0x17bd Server failure A push.services.mozilla.com OPT
+  227  24.009322     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  228  24.009608   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0xef97 Server failure A push.services.mozilla.com OPT
+  229  24.009685    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0xa70b A push.services.mozilla.com OPT
+  230  24.009702    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x3009 AAAA push.services.mozilla.com OPT
+  231  24.009746   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0x1c9d Server failure AAAA push.services.mozilla.com OPT
+  232  24.010023    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0xef97 A push.services.mozilla.com OPT
+  233  24.010035    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x1c9d AAAA push.services.mozilla.com OPT
+  234  24.010100    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0xe578 A push.services.mozilla.com OPT
+  235  24.011180     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  236  24.011531    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x1d50 AAAA push.services.mozilla.com OPT
+  237  24.012181   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0xa70b Server failure A push.services.mozilla.com OPT
+  238  24.012359   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0xef97 Server failure A push.services.mozilla.com OPT
+  239  24.013140     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  240  24.013438   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0x1c9d Server failure AAAA push.services.mozilla.com OPT
+  241  24.013612   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0x3009 Server failure AAAA push.services.mozilla.com OPT
+  242  24.013839    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0xa70b A push.services.mozilla.com OPT
+  243  24.013979    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x3009 AAAA push.services.mozilla.com OPT
+  244  24.014309    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x6ef5 A push.services.mozilla.com OPT
+  245  24.015100    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x25d0 AAAA push.services.mozilla.com OPT
+  246  24.015609     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  247  24.016194   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0xa70b Server failure A push.services.mozilla.com OPT
+  248  24.016929     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  249  24.017171   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0x3009 Server failure AAAA push.services.mozilla.com OPT
+  250  24.017363    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x6a92 A push.services.mozilla.com OPT
+  251  24.017380    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x1599 AAAA push.services.mozilla.com OPT
+  252  24.017620    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0xfa44 A push.services.mozilla.com OPT
+  253  24.018602    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x9f6b AAAA push.services.mozilla.com OPT
+  254  24.019098     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  255  24.020705     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  256  24.020977   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0x6a92 Server failure A push.services.mozilla.com OPT
+  257  24.021172   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0x1599 Server failure AAAA push.services.mozilla.com OPT
+  258  24.021604    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x6a92 A push.services.mozilla.com OPT
+  259  24.021620    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x1599 AAAA push.services.mozilla.com OPT
+  260  24.022561    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x0b66 A push.services.mozilla.com OPT
+  261  24.023222    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0xbc2e AAAA push.services.mozilla.com OPT
+  262  24.023637     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  263  24.024341     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  264  24.025038   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0x6a92 Server failure A push.services.mozilla.com OPT
+  265  24.025232   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0x1599 Server failure AAAA push.services.mozilla.com OPT
+  266  24.025647    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0xd2ee A push.services.mozilla.com OPT
+  267  24.025802    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x08d4 AAAA push.services.mozilla.com OPT
+  268  24.026103    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x81f5 A push.services.mozilla.com OPT
+  269  24.026813    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0xc839 AAAA push.services.mozilla.com OPT
+  270  24.027360     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  271  24.027592   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0xd2ee Server failure A push.services.mozilla.com OPT
+  272  24.028404     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  273  24.028842   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0x08d4 Server failure AAAA push.services.mozilla.com OPT
+  274  24.028973    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0xd2ee A push.services.mozilla.com OPT
+  275  24.029107    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x08d4 AAAA push.services.mozilla.com OPT
+  276  24.029433    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0xdf34 A push.services.mozilla.com OPT
+  277  24.030060    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0xb6cc AAAA push.services.mozilla.com OPT
+  278  24.030396     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  279  24.030410     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  280  24.030579   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0xd2ee Server failure A push.services.mozilla.com OPT
+  281  24.031136   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0x08d4 Server failure AAAA push.services.mozilla.com OPT
+  282  24.031668    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0xe34d A push.services.mozilla.com OPT
+  283  24.031962    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x9948 AAAA push.services.mozilla.com OPT
+  284  24.032360    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x97f2 A push.services.mozilla.com OPT
+  285  24.033399     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  286  24.033772    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x8702 AAAA push.services.mozilla.com OPT
+  287  24.034374     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  288  24.035308   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0xe34d Server failure A push.services.mozilla.com OPT
+  289  24.035402   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0x9948 Server failure AAAA push.services.mozilla.com OPT
+  290  24.035982    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0xe34d A push.services.mozilla.com OPT
+  291  24.036089    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x9948 AAAA push.services.mozilla.com OPT
+  292  24.036432    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x1a73 A push.services.mozilla.com OPT
+  293  24.037191     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  294  24.038207    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x4c74 AAAA push.services.mozilla.com OPT
+  295  24.039150     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  296  24.039345   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0xe34d Server failure A push.services.mozilla.com OPT
+  297  24.039551   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0x9948 Server failure AAAA push.services.mozilla.com OPT
+  298  27.247086    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x4a3a A alive.github.com OPT
+  299  27.247631    10.0.2.15 → 10.142.0.1   DNS 92 Standard query 0x2c36 A live.github.com OPT
+  300  27.248840    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x2c06 AAAA alive.github.com OPT
+  301  27.249151    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x7abf A alive.github.com OPT
+  302  27.249167    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x2cbc AAAA alive.github.com OPT
+  303  27.249849    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x4571 A alive.github.com OPT
+  304  27.250388     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  305  27.251033    10.0.2.15 → 10.142.0.1   DNS 92 Standard query 0x3b5b AAAA live.github.com OPT
+  306  27.251717   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x4a3a Server failure A alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  307  27.253115     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  308  27.253356    10.0.2.15 → 10.142.0.1   DNS 92 Standard query 0xcd20 A live.github.com OPT
+  309  27.254315   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x2cbc Server failure AAAA alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  310  27.254562   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x2c06 Server failure AAAA alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  311  27.255522    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x4a3a A alive.github.com OPT
+  312  27.255947    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x2c06 AAAA alive.github.com OPT
+  313  27.256179     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  314  27.256681   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x7abf Server failure A alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  315  27.256892   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x4a3a Server failure A alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  316  27.257041    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x7abf A alive.github.com OPT
+  317  27.257027   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x4571 Server failure A alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  318  27.257055    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x2cbc AAAA alive.github.com OPT
+  319  27.257131    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x4571 A alive.github.com OPT
+  320  27.257332    10.0.2.15 → 10.142.0.1   DNS 92 Standard query 0x4f6a AAAA live.github.com OPT
+  321  27.258604     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  322  27.258851    10.0.2.15 → 10.142.0.1   DNS 92 Standard query 0x732f A live.github.com OPT
+  323  27.260011     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  324  27.260444   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x7abf Server failure A alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  325  27.261201   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x2cbc Server failure AAAA alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  326  27.261246   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x2c06 Server failure AAAA alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  327  27.261338    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0xa86c A alive.github.com OPT
+  328  27.261353    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0xa170 AAAA alive.github.com OPT
+  329  27.261420    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x401a A alive.github.com OPT
+  330  27.261434    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x2b21 AAAA alive.github.com OPT
+  331  27.261749    10.0.2.15 → 10.142.0.1   DNS 92 Standard query 0x5913 A live.github.com OPT
+  332  27.263010     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  333  27.264076    10.0.2.15 → 10.142.0.1   DNS 92 Standard query 0x2b85 AAAA live.github.com OPT
+  334  27.264963   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0xa86c Server failure A alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  335  27.265687     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  336  27.265905   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x401a Server failure A alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  337  27.266092   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x4571 Server failure A alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  338  27.266260    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0xc3c6 A alive.github.com OPT
+  339  27.266371   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0xa170 Server failure AAAA alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  340  27.266570   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x2b21 Server failure AAAA alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  341  27.266632    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x401a A alive.github.com OPT
+  342  27.266645    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x2b21 AAAA alive.github.com OPT
+  343  27.266662    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0xa86c A alive.github.com OPT
+  344  27.266675    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0xa170 AAAA alive.github.com OPT
+  345  27.266930    10.0.2.15 → 10.142.0.1   DNS 92 Standard query 0xbb28 A live.github.com OPT
+  346  27.268358     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  347  27.268706    10.0.2.15 → 10.142.0.1   DNS 92 Standard query 0x6b44 AAAA live.github.com OPT
+  348  27.269852     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  349  27.270010   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0xc3c6 Server failure A alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  350  27.270199   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0xa86c Server failure A alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  351  27.270274   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x401a Server failure A alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  352  27.270358    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0xc3c6 A alive.github.com OPT
+  353  27.270601   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0xa170 Server failure AAAA alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  354  27.270812   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x2b21 Server failure AAAA alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  355  27.271406    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x9083 A alive.github.com OPT
+  356  27.271425    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x4c87 AAAA alive.github.com OPT
+  357  27.271554    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x58c2 A alive.github.com OPT
+  358  27.271568    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x23fc AAAA alive.github.com OPT
+  359  27.271793    10.0.2.15 → 10.142.0.1   DNS 92 Standard query 0x5e9d A live.github.com OPT
+  360  27.272864     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  361  27.273319   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0xc3c6 Server failure A alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  362  27.273539   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x9083 Server failure A alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  363  27.274019    10.0.2.15 → 10.142.0.1   DNS 92 Standard query 0x3c63 AAAA live.github.com OPT
+  364  27.274070    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x6c58 A alive.github.com OPT
+  365  27.275190     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  366  27.275334    10.0.2.15 → 10.142.0.1   DNS 92 Standard query 0x519f A live.github.com OPT
+  367  27.275767     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  368  27.277039   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x58c2 Server failure A alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  369  27.277338   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x4c87 Server failure AAAA alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  370  27.277525   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x23fc Server failure AAAA alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  371  27.277598    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x58c2 A alive.github.com OPT
+  372  27.277612    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x23fc AAAA alive.github.com OPT
+  373  27.277643    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x9083 A alive.github.com OPT
+  374  27.277652    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x4c87 AAAA alive.github.com OPT
+  375  27.277906    10.0.2.15 → 10.142.0.1   DNS 92 Standard query 0x3a6e A live.github.com OPT
+  376  27.278883     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  377  27.279726    10.0.2.15 → 10.142.0.1   DNS 92 Standard query 0x7d98 AAAA live.github.com OPT
+  378  27.281029     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  379  27.281246   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x6c58 Server failure A alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  380  27.281448   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x58c2 Server failure A alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  381  27.281568   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x23fc Server failure AAAA alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  382  27.281690    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x6c58 A alive.github.com OPT
+  383  27.281889    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0xd5ef A alive.github.com OPT
+  384  27.281908    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x65e3 AAAA alive.github.com OPT
+  385  27.281900    10.0.2.15 → 10.142.0.1   DNS 92 Standard query 0x85d6 A live.github.com OPT
+  386  27.283132     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  387  27.283329    10.0.2.15 → 10.142.0.1   DNS 92 Standard query 0x5532 AAAA live.github.com OPT
+  388  27.283872     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  389  27.284362   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x4c87 Server failure AAAA alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  390  27.285499   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x9083 Server failure A alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  391  27.285724   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x6c58 Server failure A alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  392  27.285853    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x4d82 A alive.github.com OPT
+  393  27.286115    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0xde6c A alive.github.com OPT
+  394  27.286138    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x9a6f AAAA alive.github.com OPT
+  395  27.286233    10.0.2.15 → 10.142.0.1   DNS 92 Standard query 0x6bb2 A live.github.com OPT
+  396  27.287969     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  397  27.288263    10.0.2.15 → 10.142.0.1   DNS 92 Standard query 0x8fbd AAAA live.github.com OPT
+  398  27.289070   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0xd5ef Server failure A alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  399  27.289293   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x4d82 Server failure A alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  400  27.289844     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  401  27.290103    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x4d82 A alive.github.com OPT
+  402  27.290520    10.0.2.15 → 10.142.0.1   DNS 92 Standard query 0x7942 A live.github.com OPT
+  403  27.291188   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x65e3 Server failure AAAA alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  404  27.291537    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0xd5ef A alive.github.com OPT
+  405  27.291553    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x65e3 AAAA alive.github.com OPT
+  406  27.292238    10.0.2.15 → 10.142.0.1   DNS 92 Standard query 0x7f4d AAAA live.github.com OPT
+  407  27.292425     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  408  27.293205     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  409  27.293696   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x9a6f Server failure AAAA alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  410  27.294467   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0xde6c Server failure A alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  411  27.294640   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x4d82 Server failure A alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  412  27.294765    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0xde6c A alive.github.com OPT
+  413  27.294780    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x9a6f AAAA alive.github.com OPT
+  414  27.295835    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0xcff3 A alive.github.com OPT
+  415  27.296042    10.0.2.15 → 10.142.0.1   DNS 92 Standard query 0x1187 A live.github.com OPT
+  416  27.296584    10.0.2.15 → 10.142.0.1   DNS 92 Standard query 0x3578 AAAA live.github.com OPT
+  417  27.297148     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  418  27.297166     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  419  27.297454   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x65e3 Server failure AAAA alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  420  27.297860   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x9a6f Server failure AAAA alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  421  27.297968   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0xd5ef Server failure A alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  422  27.298021   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0xde6c Server failure A alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  423  27.298071   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0xcff3 Server failure A alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  424  27.618081    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x1765 A alive.github.com OPT
+  425  27.619596    10.0.2.15 → 10.142.0.1   DNS 92 Standard query 0x7f83 A live.github.com OPT
+  426  27.623485     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  427  27.625206   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x1765 Server failure A alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  428  27.626071    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x1765 A alive.github.com OPT
+  429  27.628381    10.0.2.15 → 10.142.0.1   DNS 92 Standard query 0xcc23 A live.github.com OPT
+  430  27.629755     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  431  27.631506   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x1765 Server failure A alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  432  27.632826    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x9225 A alive.github.com OPT
+  433  27.633426    10.0.2.15 → 10.142.0.1   DNS 92 Standard query 0xe260 A live.github.com OPT
+  434  27.634590     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  435  27.634892   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x9225 Server failure A alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  436  27.635353    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x9225 A alive.github.com OPT
+  437  27.635819    10.0.2.15 → 10.142.0.1   DNS 92 Standard query 0x3890 A live.github.com OPT
+  438  27.637788     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  439  27.638084   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x9225 Server failure A alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  440  27.638609    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0xc1a6 A alive.github.com OPT
+  441  27.639152    10.0.2.15 → 10.142.0.1   DNS 92 Standard query 0x76aa A live.github.com OPT
+  442  27.640218     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  443  27.640692   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0xc1a6 Server failure A alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  444  27.641411    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0xc1a6 A alive.github.com OPT
+  445  27.641836    10.0.2.15 → 10.142.0.1   DNS 92 Standard query 0xc3a4 A live.github.com OPT
+  446  27.643075     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  447  27.643402   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0xc1a6 Server failure A alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  448  27.644127    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0xeec4 A alive.github.com OPT
+  449  27.644650    10.0.2.15 → 10.142.0.1   DNS 92 Standard query 0x9f82 A live.github.com OPT
+  450  27.645979     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  451  27.646328   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0xeec4 Server failure A alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  452  27.646665    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0xeec4 A alive.github.com OPT
+  453  27.647172    10.0.2.15 → 10.142.0.1   DNS 92 Standard query 0x485a A live.github.com OPT
+  454  27.648448     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  455  27.648743   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0xeec4 Server failure A alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  456  32.301490    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0xcff3 A alive.github.com OPT
+  457  32.302578    10.0.2.15 → 10.142.0.1   DNS 92 Standard query 0x1604 A live.github.com OPT
+  458  32.334663    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x98c8 A alive.github.com OPT
+  459  34.715629    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x11fe A push.services.mozilla.com OPT
+  460  34.716655    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x01c4 A push.services.mozilla.com OPT
+  461  34.717779    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x0bfa AAAA push.services.mozilla.com OPT
+  462  34.718749    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x9036 AAAA push.services.mozilla.com OPT
+  463  37.326598    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x7043 A alive.github.com OPT
+  464  37.327725    10.0.2.15 → 10.142.0.1   DNS 92 Standard query 0x1604 A live.github.com OPT
+  465  37.340180    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x98c8 A alive.github.com OPT
+  466  39.954421    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x01c4 A push.services.mozilla.com OPT
+  467  39.954738    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x9036 AAAA push.services.mozilla.com OPT
+  468  39.987756    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x11fe A push.services.mozilla.com OPT
+  469  39.990802    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x0bfa AAAA push.services.mozilla.com OPT
+  470  42.401221    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0xf540 A alive.github.com OPT
+  471  42.401377    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x7043 A alive.github.com OPT
+  472  42.401582    10.0.2.15 → 10.142.0.1   DNS 92 Standard query 0x1604 A live.github.com OPT
+  473  45.053293    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0xb1f3 A push.services.mozilla.com OPT
+  474  45.053429    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x2489 AAAA push.services.mozilla.com OPT
+  475  45.054741    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x9036 AAAA push.services.mozilla.com OPT
+  476  45.058575    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x01c4 A push.services.mozilla.com OPT
+  477  47.452365    10.0.2.15 → 10.142.0.1   DNS 92 Standard query 0x1604 A live.github.com OPT
+  478  47.453865    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0xf540 A alive.github.com OPT
+  479  47.454401    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x22ad A alive.github.com OPT
+  480  47.454752    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x02a8 AAAA alive.github.com OPT
+  481  47.455924    10.0.2.15 → 10.142.0.1   DNS 92 Standard query 0x23cb AAAA live.github.com OPT
+  482  50.060388    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0xb1f3 A push.services.mozilla.com OPT
+  483  50.060491    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x2489 AAAA push.services.mozilla.com OPT
+  484  50.060901    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x01c4 A push.services.mozilla.com OPT
+  485  50.061104    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x9036 AAAA push.services.mozilla.com OPT
+  486  52.461923    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x22ad A alive.github.com OPT
+  487  52.462295    10.0.2.15 → 10.142.0.1   DNS 92 Standard query 0x23cb AAAA live.github.com OPT
+  488  52.462308    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x02a8 AAAA alive.github.com OPT
+  489  52.463302    10.0.2.15 → 10.142.0.1   DNS 92 Standard query 0x1604 A live.github.com OPT
+  490  52.465437    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x6822 A alive.github.com OPT
+  491  52.465935    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0xbc24 AAAA alive.github.com OPT
+  492  52.528407 PCSSystemtec_10:ca:88 →              ARP 48 Who has 10.0.2.2? Tell 10.0.2.15
+  493  52.529980 52:54:00:12:35:02 →              ARP 66 10.0.2.2 is at 52:54:00:12:35:02
+  494  55.072442    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x4fae A push.services.mozilla.com OPT
+  495  55.072635    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x94ab AAAA push.services.mozilla.com OPT
+  496  55.073036    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x9036 AAAA push.services.mozilla.com OPT
+  497  55.073266    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x01c4 A push.services.mozilla.com OPT
+  498  57.470549    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x6822 A alive.github.com OPT
+  499  57.470617    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0xbc24 AAAA alive.github.com OPT
+  500  57.470751    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0xeb3e A alive.github.com OPT
+  501  57.470765    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x95f0 AAAA alive.github.com OPT
+  502  57.471129    10.0.2.15 → 10.142.0.1   DNS 92 Standard query 0x1604 A live.github.com OPT
+  503  57.473762    10.0.2.15 → 10.142.0.1   DNS 92 Standard query 0x23cb AAAA live.github.com OPT
+  504  60.118268    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x4fae A push.services.mozilla.com OPT
+  505  60.118398    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x01c4 A push.services.mozilla.com OPT
+  506  60.121119     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  507  60.121745    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x9036 AAAA push.services.mozilla.com OPT
+  508  60.122785     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  509  60.123002   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0x4fae Server failure A push.services.mozilla.com OPT
+  510  60.123056   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0x11fe Server failure A push.services.mozilla.com OPT
+  511  60.123075    127.0.0.1 → 127.0.0.53   ICMP 130 Destination unreachable (Port unreachable)
+  512  60.123109   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0xb1f3 Server failure A push.services.mozilla.com OPT
+  513  60.123122    127.0.0.1 → 127.0.0.53   ICMP 130 Destination unreachable (Port unreachable)
+  514  60.123209   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0x0bfa Server failure AAAA push.services.mozilla.com OPT
+  515  60.123224    127.0.0.1 → 127.0.0.53   ICMP 130 Destination unreachable (Port unreachable)
+  516  60.123263   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0x2489 Server failure AAAA push.services.mozilla.com OPT
+  517  60.123276    127.0.0.1 → 127.0.0.53   ICMP 130 Destination unreachable (Port unreachable)
+  518  60.123309   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0x94ab Server failure AAAA push.services.mozilla.com OPT
+  519  60.123449    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x94ab AAAA push.services.mozilla.com OPT
+  520  60.123591    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0xf452 A push.services.mozilla.com OPT
+  521  60.123601    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0xd056 AAAA push.services.mozilla.com OPT
+  522  60.124628    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x825f AAAA push.services.mozilla.com OPT
+  523  60.125876     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  524  60.126132    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0xd8ed A push.services.mozilla.com OPT
+  525  60.126523     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  526  60.127200   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0xf452 Server failure A push.services.mozilla.com OPT
+  527  60.127269   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0xd056 Server failure AAAA push.services.mozilla.com OPT
+  528  60.127292   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0x94ab Server failure AAAA push.services.mozilla.com OPT
+  529  60.127307    127.0.0.1 → 127.0.0.53   ICMP 130 Destination unreachable (Port unreachable)
+  530  60.127384    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0xf452 A push.services.mozilla.com OPT
+  531  60.127399    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0xd056 AAAA push.services.mozilla.com OPT
+  532  60.127562    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x6716 A push.services.mozilla.com OPT
+  533  60.128665     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  534  60.129018    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x6e12 AAAA push.services.mozilla.com OPT
+  535  60.129523   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0xf452 Server failure A push.services.mozilla.com OPT
+  536  60.130503     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  537  60.130755   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0xd056 Server failure AAAA push.services.mozilla.com OPT
+  538  60.133023    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0xc9d3 A push.services.mozilla.com OPT
+  539  60.133437    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0xe431 A push.services.mozilla.com OPT
+  540  60.134948     10.0.2.2 → 10.0.2.15    ICMP 76 Destination unreachable (Network unreachable)
+  541  60.135530   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0xc9d3 Server failure A push.services.mozilla.com OPT
+  542  62.487207    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0xeb3e A alive.github.com OPT
+  543  62.487344    10.0.2.15 → 10.142.0.1   DNS 92 Standard query 0x23cb AAAA live.github.com OPT
+  544  62.487549    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x3610 A alive.github.com OPT
+  545  62.487564    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x5d0d AAAA alive.github.com OPT
+  546  62.488566    10.0.2.15 → 10.142.0.1   DNS 92 Standard query 0x1604 A live.github.com OPT
+  547  62.488660    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x95f0 AAAA alive.github.com OPT
+  548  63.491612   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0xbc24 Server failure AAAA alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  549  63.491639    127.0.0.1 → 127.0.0.53   ICMP 224 Destination unreachable (Port unreachable)
+  550  63.491714   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x95f0 Server failure AAAA alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  551  63.491847   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x02a8 Server failure AAAA alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  552  63.491862    127.0.0.1 → 127.0.0.53   ICMP 224 Destination unreachable (Port unreachable)
+  553  63.491922   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x5d0d Server failure AAAA alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  554  63.492061   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0xcff3 Server failure A alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  555  63.492075    127.0.0.1 → 127.0.0.53   ICMP 224 Destination unreachable (Port unreachable)
+  556  63.492134   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0xeb3e Server failure A alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  557  63.493574   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x3610 Server failure A alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  558  63.493631    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x3610 A alive.github.com OPT
+  559  63.493644    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x5d0d AAAA alive.github.com OPT
+  560  63.493729   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x22ad Server failure A alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  561  63.493745    127.0.0.1 → 127.0.0.53   ICMP 224 Destination unreachable (Port unreachable)
+  562  63.493805   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x6822 Server failure A alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  563  63.493817    127.0.0.1 → 127.0.0.53   ICMP 224 Destination unreachable (Port unreachable)
+  564  63.493877   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0xf540 Server failure A alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  565  63.493890    127.0.0.1 → 127.0.0.53   ICMP 224 Destination unreachable (Port unreachable)
+  566  63.493945   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x7043 Server failure A alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  567  63.493956    127.0.0.1 → 127.0.0.53   ICMP 224 Destination unreachable (Port unreachable)
+  568  63.494013   127.0.0.53 → 127.0.0.1    DNS 196 Standard query response 0x98c8 Server failure A alive.github.com CNAME live.github.com SOA ns-1707.awsdns-21.co.uk OPT
+  569  63.494027    127.0.0.1 → 127.0.0.53   ICMP 224 Destination unreachable (Port unreachable)
+  570  63.494748   127.0.0.53 → 127.0.0.1    DNS 93 Standard query response 0x3610 Server failure A alive.github.com OPT
+  571  63.494899   127.0.0.53 → 127.0.0.1    DNS 93 Standard query response 0x5d0d Server failure AAAA alive.github.com OPT
+  572  63.497289    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x5bb4 A alive.github.com OPT
+  573  63.497419    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0xbdb1 AAAA alive.github.com OPT
+  574  63.499385   127.0.0.53 → 127.0.0.1    DNS 93 Standard query response 0x5bb4 Server failure A alive.github.com OPT
+  575  63.499478   127.0.0.53 → 127.0.0.1    DNS 93 Standard query response 0xbdb1 Server failure AAAA alive.github.com OPT
+  576  63.502880    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x5bb4 A alive.github.com OPT
+  577  63.503004   127.0.0.53 → 127.0.0.1    DNS 93 Standard query response 0x5bb4 Server failure A alive.github.com OPT
+  578  63.503048    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0xbdb1 AAAA alive.github.com OPT
+  579  63.503142   127.0.0.53 → 127.0.0.1    DNS 93 Standard query response 0xbdb1 Server failure AAAA alive.github.com OPT
+  580  63.503257    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x290b A alive.github.com OPT
+  581  63.503342   127.0.0.53 → 127.0.0.1    DNS 93 Standard query response 0x290b Server failure A alive.github.com OPT
+  582  63.503370    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x2307 AAAA alive.github.com OPT
+  583  63.503458   127.0.0.53 → 127.0.0.1    DNS 93 Standard query response 0x2307 Server failure AAAA alive.github.com OPT
+  584  63.503538    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x290b A alive.github.com OPT
+  585  63.503659   127.0.0.53 → 127.0.0.1    DNS 93 Standard query response 0x290b Server failure A alive.github.com OPT
+  586  63.503703    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x2307 AAAA alive.github.com OPT
+  587  63.503837   127.0.0.53 → 127.0.0.1    DNS 93 Standard query response 0x2307 Server failure AAAA alive.github.com OPT
+  588  63.504757    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0xf98b A alive.github.com OPT
+  589  63.504892   127.0.0.53 → 127.0.0.1    DNS 93 Standard query response 0xf98b Server failure A alive.github.com OPT
+  590  63.504936    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x4b8f AAAA alive.github.com OPT
+  591  63.505032   127.0.0.53 → 127.0.0.1    DNS 93 Standard query response 0x4b8f Server failure AAAA alive.github.com OPT
+  592  63.505098    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0xf98b A alive.github.com OPT
+  593  63.505187   127.0.0.53 → 127.0.0.1    DNS 93 Standard query response 0xf98b Server failure A alive.github.com OPT
+  594  63.505218    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x4b8f AAAA alive.github.com OPT
+  595  63.505300   127.0.0.53 → 127.0.0.1    DNS 93 Standard query response 0x4b8f Server failure AAAA alive.github.com OPT
+  596  63.506236    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0xc54b A alive.github.com OPT
+  597  63.506353   127.0.0.53 → 127.0.0.1    DNS 93 Standard query response 0xc54b Server failure A alive.github.com OPT
+  598  63.506392    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x5b46 AAAA alive.github.com OPT
+  599  63.506479   127.0.0.53 → 127.0.0.1    DNS 93 Standard query response 0x5b46 Server failure AAAA alive.github.com OPT
+  600  63.506543    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0xc54b A alive.github.com OPT
+  601  63.506701    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x5b46 AAAA alive.github.com OPT
+  602  63.508881   127.0.0.53 → 127.0.0.1    DNS 93 Standard query response 0xc54b Server failure A alive.github.com OPT
+  603  63.509109   127.0.0.53 → 127.0.0.1    DNS 93 Standard query response 0x5b46 Server failure AAAA alive.github.com OPT
+  604  65.211427    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0xc9d3 A push.services.mozilla.com OPT
+  605  65.211620   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0xc9d3 Server failure A push.services.mozilla.com OPT
+  606  65.717048 fe80::68c7:596f:2d5a:d878 → ff02::16     ICMPv6 116 Multicast Listener Report Message v2
+  607  65.740864      0.0.0.0 → 255.255.255.255 DHCP 343 DHCP Request  - Transaction ID 0x57c77a88
+  608  65.742312     10.0.2.2 → 10.0.2.15    DHCP 596 DHCP ACK      - Transaction ID 0x57c77a88
+  609  65.742569 PCSSystemtec_10:ca:88 →              ARP 48 Who has 10.0.2.2? Tell 10.0.2.15
+  610  65.744252 52:54:00:12:35:02 →              ARP 66 10.0.2.2 is at 52:54:00:12:35:02
+  611  65.744262    10.0.2.15 → 10.0.2.2     ICMP 596 Destination unreachable (Port unreachable)
+  612  65.820098 fe80::68c7:596f:2d5a:d878 → ff02::16     ICMPv6 116 Multicast Listener Report Message v2
+  613  66.734243 fe80::68c7:596f:2d5a:d878 → ff02::16     ICMPv6 116 Multicast Listener Report Message v2
+  614  70.414196    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x197b A push.services.mozilla.com OPT
+  615  70.414805   127.0.0.53 → 127.0.0.1    DNS 102 Standard query response 0x197b Server failure A push.services.mozilla.com OPT
+  616  73.873021 fe80::68c7:596f:2d5a:d878 → ff02::16     ICMPv6 116 Multicast Listener Report Message v2
+  617  73.881711      0.0.0.0 → 255.255.255.255 DHCP 343 DHCP Request  - Transaction ID 0xdf6fea6d
+  618  73.882690     10.0.2.2 → 10.0.2.15    DHCP 596 DHCP ACK      - Transaction ID 0xdf6fea6d
+  619  73.882751 PCSSystemtec_10:ca:88 →              ARP 48 Who has 10.0.2.2? Tell 10.0.2.15
+  620  73.883787 52:54:00:12:35:02 →              ARP 66 10.0.2.2 is at 52:54:00:12:35:02
+  621  73.883796    10.0.2.15 → 10.0.2.2     ICMP 596 Destination unreachable (Port unreachable)
+  622  73.920234 fe80::68c7:596f:2d5a:d878 → ff02::16     ICMPv6 116 Multicast Listener Report Message v2
+  623  74.513573 fe80::68c7:596f:2d5a:d878 → ff02::16     ICMPv6 116 Multicast Listener Report Message v2
+  624  75.453856    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x197b A push.services.mozilla.com OPT
+  625  75.454550    10.0.2.15 → 10.142.0.1   DNS 102 Standard query 0x9cff A push.services.mozilla.com OPT
+  626  75.468423   10.142.0.1 → 10.0.2.15    DNS 156 Standard query response 0x9cff A push.services.mozilla.com CNAME autopush.prod.mozaws.net A 34.107.243.93 OPT
+  627  75.468770   127.0.0.53 → 127.0.0.1    DNS 156 Standard query response 0x197b A push.services.mozilla.com CNAME autopush.prod.mozaws.net A 34.107.243.93 OPT
+  628  75.469103    127.0.0.1 → 127.0.0.53   DNS 102 Standard query 0x2d77 AAAA push.services.mozilla.com OPT
+  629  75.469602    10.0.2.15 → 10.142.0.1   DNS 101 Standard query 0x3e52 AAAA autopush.prod.mozaws.net OPT
+  630  75.483249   10.142.0.1 → 10.0.2.15    DNS 186 Standard query response 0x3e52 AAAA autopush.prod.mozaws.net SOA ns-1260.awsdns-29.org OPT
+  631  75.483577   127.0.0.53 → 127.0.0.1    DNS 238 Standard query response 0x2d77 AAAA push.services.mozilla.com CNAME autopush.prod.mozaws.net SOA ns-1260.awsdns-29.org A 34.107.243.93 OPT
+  632  75.485470    10.0.2.15 → 34.107.243.93 TCP 80 57858 → 443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM TSval=296292241 TSecr=0 WS=128
+  633  75.495336 34.107.243.93 → 10.0.2.15    TCP 66 443 → 57858 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460
+  634  75.495391    10.0.2.15 → 34.107.243.93 TCP 60 57858 → 443 [ACK] Seq=1 Ack=1 Win=64240 Len=0
+  635  75.500998    10.0.2.15 → 34.107.243.93 TLSv1 1299 Client Hello (SNI=push.services.mozilla.com)
+  636  75.502328 34.107.243.93 → 10.0.2.15    TCP 66 443 → 57858 [ACK] Seq=1 Ack=1240 Win=65535 Len=0
+  637  75.590134 34.107.243.93 → 10.0.2.15    TLSv1.3 272 Server Hello, Change Cipher Spec, Application Data
+  638  75.590295    10.0.2.15 → 34.107.243.93 TCP 60 57858 → 443 [ACK] Seq=1240 Ack=213 Win=64028 Len=0
+  639  75.591682    10.0.2.15 → 34.107.243.93 TLSv1.3 124 Change Cipher Spec, Application Data
+  640  75.592210    10.0.2.15 → 34.107.243.93 TLSv1.3 230 Application Data
+  641  75.592673 34.107.243.93 → 10.0.2.15    TCP 66 443 → 57858 [ACK] Seq=213 Ack=1304 Win=65535 Len=0
+  642  75.593466 34.107.243.93 → 10.0.2.15    TCP 66 443 → 57858 [ACK] Seq=213 Ack=1474 Win=65535 Len=0
+  643  75.599733 34.107.243.93 → 10.0.2.15    TLSv1.3 677 Application Data, Application Data, Application Data
+  644  75.600898    10.0.2.15 → 34.107.243.93 TLSv1.3 91 Application Data
+  645  75.601703    10.0.2.15 → 34.107.243.93 TCP 80 57868 → 443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM TSval=296292357 TSecr=0 WS=128
+  646  75.602330 34.107.243.93 → 10.0.2.15    TCP 66 443 → 57858 [ACK] Seq=830 Ack=1505 Win=65535 Len=0
+  647  75.612448 34.107.243.93 → 10.0.2.15    TCP 66 443 → 57868 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460
+  648  75.612498    10.0.2.15 → 34.107.243.93 TCP 60 57868 → 443 [ACK] Seq=1 Ack=1 Win=64240 Len=0
+  649  75.614637    10.0.2.15 → 34.107.243.93 TLSv1 1290 Client Hello (SNI=push.services.mozilla.com)
+  650  75.617010 34.107.243.93 → 10.0.2.15    TCP 66 443 → 57868 [ACK] Seq=1 Ack=1231 Win=65535 Len=0
+  651  75.703876 34.107.243.93 → 10.0.2.15    TLSv1.3 278 Server Hello, Change Cipher Spec, Application Data
+  652  75.704035    10.0.2.15 → 34.107.243.93 TCP 60 57868 → 443 [ACK] Seq=1231 Ack=219 Win=64022 Len=0
+  653  75.705544    10.0.2.15 → 34.107.243.93 TLSv1.3 124 Change Cipher Spec, Application Data
+  654  75.706518    10.0.2.15 → 34.107.243.93 TLSv1.3 684 Application Data
+  655  75.706579 34.107.243.93 → 10.0.2.15    TCP 66 443 → 57868 [ACK] Seq=219 Ack=1295 Win=65535 Len=0
+  656  75.708272 34.107.243.93 → 10.0.2.15    TCP 66 443 → 57868 [ACK] Seq=219 Ack=1919 Win=65535 Len=0
+  657  75.950962 34.107.243.93 → 10.0.2.15    TLSv1.3 858 Application Data, Application Data
+  658  75.955915    10.0.2.15 → 34.107.243.93 TLSv1.3 243 Application Data
+  659  75.956849 34.107.243.93 → 10.0.2.15    TCP 66 443 → 57868 [ACK] Seq=1017 Ack=2102 Win=65535 Len=0
+  660  76.255666 34.107.243.93 → 10.0.2.15    TLSv1.3 197 Application Data
+  661  76.279871    10.0.2.15 → 34.107.243.93 TCP 60 57868 → 443 [ACK] Seq=2102 Ack=1154 Win=64022 Len=0
+  662  81.181378    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x71ba A alive.github.com OPT
+  663  81.181870    10.0.2.15 → 10.142.0.1   DNS 93 Standard query 0xbab4 A alive.github.com OPT
+  664  81.182762    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x65bd AAAA alive.github.com OPT
+  665  81.183593    10.0.2.15 → 10.142.0.1   DNS 93 Standard query 0xe9f2 AAAA alive.github.com OPT
+  666  84.184982    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x3486 A alive.github.com OPT
+  667  84.185100    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x7381 AAAA alive.github.com OPT
+  668  86.187945    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x71ba A alive.github.com OPT
+  669  86.188065    10.0.2.15 → 10.142.0.1   DNS 93 Standard query 0xe9f2 AAAA alive.github.com OPT
+  670  86.188242    10.0.2.15 → 10.142.0.1   DNS 93 Standard query 0xbab4 A alive.github.com OPT
+  671  86.188420    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x65bd AAAA alive.github.com OPT
+  672  89.329606    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x3486 A alive.github.com OPT
+  673  89.330161    127.0.0.1 → 127.0.0.53   DNS 93 Standard query 0x7381 AAAA alive.github.com OPT
